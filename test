@@ -10,12 +10,12 @@ class Sensor(ABC):
 #Child Classes
 class PHSensor(Sensor):
   def get_reading(self):
-    print("[pH Sensor] Reading: 7.2 pH (Neutral)")
+    print("[pH Sensor] Reading: 7.3 pH (Neutral)")
     return
 
 class TempSensor(Sensor):
   def get_reading(self):
-    print("[Temperature Sensor] Reading: 24.5°C")
+    print("[Temperature Sensor] Reading: 25.5°C")
     return
 
 #Instantiate
